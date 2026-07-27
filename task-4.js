@@ -302,25 +302,48 @@
 // // []
 
 
-function removeDuplicates(numbers) {
-    const result = []
-    for (const number of numbers) {
-        if (!result.includes(number))
-            result.push(number)
-    }
-    return result
-}
+// function removeDuplicates(numbers) {
+//     const result = []
+//     for (const number of numbers) {
+//         if (!result.includes(number))
+//             result.push(number)
+//     }
+//     return result
+// }
 
 
 
-console.log(removeDuplicates([1, 2, 2, 3, 1, 4]));
-// [1, 2, 3, 4]
+// console.log(removeDuplicates([1, 2, 2, 3, 1, 4]));
+// // [1, 2, 3, 4]
 
-console.log(removeDuplicates([5, 5, 5]));
-// [5]
+// console.log(removeDuplicates([5, 5, 5]));
+// // [5]
 
-console.log(removeDuplicates([7, 8, 9]));
-// [7, 8, 9]
+// console.log(removeDuplicates([7, 8, 9]));
+// // [7, 8, 9]
 
-console.log(removeDuplicates([]));
-// []
+// console.log(removeDuplicates([]));
+// // []
+
+
+
+// function findLongestWord(words) {
+//     let longestWord = ``;
+//     for (const word of words) {
+//         if (word.length > longestWord.length) {
+//             longestWord = word;
+//         }
+
+//     }
+//     return longestWord
+// }
+
+
+// console.log(findLongestWord(["cat", "elephant", "dog"]));
+// // "elephant"
+
+// console.log(findLongestWord(["JavaScript", "HTML", "CSS"]));
+// // "JavaScript"
+
+// console.log(findLongestWord(["one", "two", "three", "four"]));
+// // "three"
